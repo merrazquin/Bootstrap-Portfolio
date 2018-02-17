@@ -124,13 +124,6 @@ nav a:hover {
     background: #fff;
 }
 
-.auth-image { 
-    width: 200px;
-    height: auto;
-    margin: 10px 25px 10px auto;
-    float: left;
-}
-
 /* sidebar */
 
 .sidebar { 
@@ -180,21 +173,7 @@ footer {
 
 /* portfolio */
 
-.work {
-    width: 274px;
-    overflow: auto;
-    position: relative;
-    float: left;
-    margin: 20px 0 25px;
-}
-
-.work:nth-child(even){ 
-    margin-right: 40px;
-}
-
 .work img {
-    width: 100%;
-    border: 0 none;
     opacity: .8;
 }
 
@@ -222,7 +201,7 @@ footer {
 
 /* contact */
 
-textarea
+textarea 
 {
     max-width: 100%;
 }
