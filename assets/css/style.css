@@ -35,42 +35,44 @@ h2, h3 {
 
 /* header */
 
+
 #logo {
     margin-left: 15px;
     font-family: 'Cookie', 'Georgia', Times, 'Times New Roman', serif;
-    /*line-height: 90px;*/
     font-weight: 700;
     font-size: 50px;
     background: #bc4f5e;
     color: #fff;
 }
 
-.thumbnail 
-{
-    max-width: 100%;
-    position: relative;
+.navbar {
+    min-height: 80px;
+}
+  
+.navbar-brand {
+    padding: 0 15px;
+    height: 80px;
+    line-height: 80px;
+}
+.navbar-right > li {
+    margin-top: 15px;
+    border-left: 1px solid #efefef;
 }
 
-.caption {
-    position: absolute;
-    bottom: 20px;
-    left: 0;
-    width: 100%;
-}
-
-.clearfix 
+.navbar-right > li:first-of-type
 {
-    margin-bottom: 10px;
+    border-left: none;
 }
 
 /* main */
 
 #main-container {
-    min-height: 100%;
+    min-height: 100%
 }
 
 .main-section {
     padding: 30px;
+    margin-bottom: 10px;
     border: 1px solid #ddd;
     background: #fff;
 }
@@ -119,6 +121,20 @@ footer {
 }
 
 /* portfolio */
+
+.thumbnail 
+{
+    max-width: 100%;
+    position: relative;
+    border: none;
+}
+
+.caption {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+}
 
 .work img {
     opacity: .8;
