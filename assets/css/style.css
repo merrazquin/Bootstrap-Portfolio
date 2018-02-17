@@ -16,23 +16,6 @@ body {
     color: #470a0a;
 }
 
-/*.container {
-    width:100%;
-    max-width: 960px;
-    margin: 0 auto;
-    clear: both;
-}*/
-
-/*h1, h2, h3, p {
-    margin-bottom: 20px;
-}
-
-p:last-child{
-    margin-bottom: 0;
-}
-*/
-
-
 h1, h2, h3 {
     font-family: 'Passion One', 'Georgia', Times, 'Times New Roman', serif;
     font-weight: 700;
@@ -52,17 +35,6 @@ h2, h3 {
 
 /* header */
 
-/*#masthead {
-    width: 100%;
-    margin: 0 0 30px;
-    z-index: 99;
-    overflow: auto;
-    position: fixed;
-    color: #fff;
-    background: #fff;
-    border-bottom: 2px solid #470a0a;
-}*/
-
 #logo {
     margin-left: 15px;
     font-family: 'Cookie', 'Georgia', Times, 'Times New Roman', serif;
@@ -76,6 +48,14 @@ h2, h3 {
 .thumbnail 
 {
     max-width: 100%;
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
 }
 
 .clearfix 
@@ -83,42 +63,13 @@ h2, h3 {
     margin-bottom: 10px;
 }
 
-/*nav {
-    float:right;
-    margin-top: 25px;
-}
-
-nav a{
-    display: inline-block;
-    margin-left: 15px;
-    padding-left: 15px;
-    text-decoration: none;
-    line-height: 20px;
-    color: #999;
-    border-left: 1px solid #efefef;
-}
-
-nav a:first-child {
-    border-left: 0 none;
-}
-
-nav a:hover {
-    text-decoration: underline;
-    text-decoration-color: #470a0a;
-}*/
-
 /* main */
 
 #main-container {
-   /* padding-top: 130px; */
     min-height: 100%;
 }
 
 .main-section {
-    /*width: 100%;
-    max-width: 650px;
-    margin: 0 40px 40px 0;
-    float: left;*/
     padding: 30px;
     border: 1px solid #ddd;
     background: #fff;
@@ -127,10 +78,6 @@ nav a:hover {
 /* sidebar */
 
 .sidebar { 
-    /*width: 100%;
-    max-width: 270px;
-    margin-bottom: 20px;
-    float: left;*/
     padding: 30px;
     border: 1px solid #ddd;
     background: #fff;
@@ -178,23 +125,16 @@ footer {
 }
 
 .work h3 { 
-    width: 100%;
-    position: absolute;
-    bottom: 20px;
     padding: 15px;
     line-height: 30px;
     border-bottom: 0;
-    margin-bottom: 0;
+    margin-bottom: 0; 
     text-align: center;
     font-weight: 300;
     background: #bc4f5e;
     color: #fff;
-}
+} 
 
-.work:hover h3 {
-    padding: 10px;
-    bottom: 0;
-}
 .work:hover img {
     opacity: 1;
 }
