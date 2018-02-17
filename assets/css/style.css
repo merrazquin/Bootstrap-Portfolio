@@ -220,7 +220,15 @@ footer {
     opacity: 1;
 }
 
+/* contact */
+
 textarea
 {
     max-width: 100%;
+}
+
+.btn-default 
+{
+    background-color: #bc4f5e;
+    color: #fff;
 }
