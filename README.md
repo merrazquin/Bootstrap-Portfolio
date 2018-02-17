@@ -17,4 +17,8 @@ For this project, I've re-created the simple portfolio done for the [Basic Portf
 * portfolio page - `.thumbnail`, `.img-responsive`
 
 ## Screenshots
-\[TODO\]
+![large view](readme-images/desktop.png)
+
+![medium view](readme-images/small.png)
+
+![small view](readme-images/smallest.png)
