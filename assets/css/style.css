@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Cookie|Dosis|Passion+One');
 
 /* make sure border & padding are included in total size when w&h are set */
-/* { box-sizing: border-box;} */
+* { box-sizing: border-box;} 
 
 html, body {
     height: 100%;
     margin: 0;
 }
-
-
 
 body {
     background: url('../images/pink_rice.png');
@@ -32,6 +30,8 @@ body {
 p:last-child{
     margin-bottom: 0;
 }
+*/
+
 
 h1, h2, h3 {
     font-family: 'Passion One', 'Georgia', Times, 'Times New Roman', serif;
@@ -48,7 +48,7 @@ h1 {
 
 h2, h3 { 
     font-size: 22px;
-}*/
+}
 
 /* header */
 
@@ -64,13 +64,23 @@ h2, h3 {
 }*/
 
 #logo {
+    margin-left: 15px;
     font-family: 'Cookie', 'Georgia', Times, 'Times New Roman', serif;
-    /* line-height: 90px;
+    /*line-height: 90px;*/
     font-weight: 700;
     font-size: 50px;
-    text-decoration: none; */
     background: #bc4f5e;
     color: #fff;
+}
+
+.thumbnail 
+{
+    max-width: 100%;
+}
+
+.clearfix 
+{
+    margin-bottom: 10px;
 }
 
 /*nav {

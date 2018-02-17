@@ -11,7 +11,7 @@
 </head>
 <body>
     <nav class="navbar navbar-default">
-        <div class="container-fluid">
+        <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -31,25 +31,36 @@
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
+        </div><!-- /.container -->
     </nav>
-    <div id="main-container" clas="container-fluid">
-        <section class="main-section col-xs-12 col-sm-12 col-md-8">
-            <h1>About Me</h1>
-            <img src="assets/images/profile.jpg" class="auth-image" alt="Marcela Errazquin"/>
+    <div id="main-container" class="container">
+        <div clas="row">
+            <div class="col-xs-12 col-sm-12 col-md-8">
+                <section class="main-section">
+                    <h1>About Me</h1>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-3">
+                            <img src="assets/images/profile.jpg" class="thumbnail" alt="Marcela Errazquin"/>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-9">
+                            <p>Hi! My name is Marcela, and I'm a technical professional with a passion for creating.</p>
 
-            <p>Hi! My name is Marcela, and I'm a technical professional with a passion for creating.</p>
+                            <p>I'm a Senior Interactive Developer with 10 years web experience, and 5 years in the DOOH (Digital-Out-Of-Home) industry. Strong understanding of Object Oriented Programming techniques. I am a self-starter and excited about new technologies.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="clearfix visible-xs-block"></div>
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                <section class="sidebar">
+                    <h2>Connect with Me</h2>
 
-            <p>I'm a Senior Interactive Developer with 10 years web experience, and 5 years in the DOOH (Digital-Out-Of-Home) industry. Strong understanding of Object Oriented Programming techniques. I am a self-starter and excited about new technologies.</p>
-        </section>
-        <div class="clearfix visible-xs-block"></div>
-        <section class="sidebar col-xs-12 col-sm-12 col-md-4">
-            <h2>Connect with Me</h2>
-
-            <a href="https://github.com/merrazquin" target="_blank"><img src="assets/images/if_github_square_black_107109.png" class="social" alt="Github"/></a>
-            <a href="https://www.linkedin.com/in/marcela-errazquin-9b39264/" target="_blank"><img src="assets/images/if_linkedin_square_color_107091.png" class="social" alt="LinkedIn"/></a>
-            <a href="https://stackoverflow.com/users/426609/marcela?tab=profile" target="_blank"><img src="assets/images/so-icon.png" class="social" alt="StackOverflow"/></a>
-        </section>
+                    <a href="https://github.com/merrazquin" target="_blank"><img src="assets/images/if_github_square_black_107109.png" class="social" alt="Github"/></a>
+                    <a href="https://www.linkedin.com/in/marcela-errazquin-9b39264/" target="_blank"><img src="assets/images/if_linkedin_square_color_107091.png" class="social" alt="LinkedIn"/></a>
+                    <a href="https://stackoverflow.com/users/426609/marcela?tab=profile" target="_blank"><img src="assets/images/so-icon.png" class="social" alt="StackOverflow"/></a>
+                </section>
+            </div>
+        </div>
     </div>
 
     <footer>
